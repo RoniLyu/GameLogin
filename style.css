@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(98, 127, 138);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #000000 0%, #2E54B6 100%);
+    width: 300px;
+    height: 341.44px;
+    color: #FFFFFF;
+
+}
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+input[type="text"] {
+    width: 200px;
+    height: 37px;
+    background: #FFFFFF;
+    border-radius: 20px; 
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px;
+}
+
+.error {
+    color: #FA6F6F;
+    font-size: 8px;
+    line-height: 10px;
+    margin-left: 50px;
+}
+
+label {
+    margin-left: 15px;
+}
+
+.igrok {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+div {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.eror-radio {
+    color: #FA6F6F;
+    font-size: 8px;
+    line-height: 10px;
+    margin-left: 50px;
+}
+
+button {
+    width: 200px;
+    height: 37px;
+    background: #FFD600;
+    border-radius: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 50px;
+    border: none;
+}
+
+button:active {
+    background-color: #7d7033;
+}
+.result {
+    margin-left: 99.5px;
+    font-size: 8px;
+    line-height: 10px;
+    color: #72FA6F;
+}
